@@ -1,0 +1,17 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+.App>:nth-child(1){
+    background-color: var(--black);
+    position: relative;
+}
+
+.degrade-blanco{
+    position: absolute;
+    width: 35rem;
+    height: 30rem;
+    background: rgb(255, 255, 255,0.522);
+    filter: blur(100px);
+    border-radius: 100%;
+}

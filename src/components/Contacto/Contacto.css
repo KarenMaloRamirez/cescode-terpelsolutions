@@ -1,0 +1,76 @@
+.c-container{
+    justify-content: space-between;
+
+}
+.c-container>div{
+    flex: 1;
+}
+.c-derecho{
+    width: 100%;
+
+}
+.c-izquierdo{
+    gap: 0.5rem;
+}
+.contactoModos{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.contactoModos .row{
+    gap: 1.5rem;
+
+}
+.modo{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgb(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+.modo .button{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--yellow);
+    font-size: 0.9 rem;
+    font-weight: 600;
+
+}
+
+.modo >:nth-child(1){
+width: 100%;
+gap: 1.6rem;
+
+}
+
+.modo .detail .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.modo :hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+
+}
+.modo .button:hover{
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+    
+}
+/*.img-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem  0 0;
+    border: 8px solid rgb(255, 255, 255,0.12);
+
+}
+
+.img-container>img{
+    width: 100%;
+    height: 100%;
+
+}*/
